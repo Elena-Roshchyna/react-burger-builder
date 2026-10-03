@@ -1,0 +1,33 @@
+.btn {
+  margin: 10px;
+  border: 2px solid black;
+  color: red;
+  padding: 10px 15px;
+  border-radius: 20%;
+  cursor: pointer;
+  background-color: white;
+  font-weight: bold;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ingredientsList {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.burgerImg {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+}
