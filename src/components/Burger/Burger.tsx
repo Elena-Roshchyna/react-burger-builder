@@ -79,7 +79,7 @@ export default function Burger(): JSX.Element {
         </button>
         ))}
 
-        <button type="button" className={style.btn} onClick={handleEatAll}>
+        <button type="button" className={style.btn} style={{ backgroundColor: "#ff4d4f", color: "white" }} onClick={handleEatAll}>
         Всё съесть 🍽️
         </button>
     </div>
